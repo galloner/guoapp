@@ -36,14 +36,14 @@ class SourceSite {
   static const huangdou = SourceSite('huangdou', '黄豆', '精选短剧');
   static const huangju = SourceSite('huangju', '剧果', '热门 · 最新 · 分类短剧');
   static const yeguo = SourceSite('yeguo', '野果', '分类短剧 · 在线搜索');
-  static const huangguo-video = SourceSite('huangguo-video', '黄果视频', '视频剧集');
+  static const huangguo = SourceSite('huangguo-video', '黄果视频', '视频剧集');
   static const huangguoai = SourceSite('huangguoai', '黄果 AI', 'AI 短剧');
   static const cloudfront = SourceSite('cloudfront', '黄果旧版', '旧 API 剧库');
   
   
 
   /// 默认可见的站源：所有。
-  static const primaryValues = [hongguo, hanxiaoquan, guipian, sorani, dsd, huangdou, huangju, yeguo, huangguo-video, huangguoai, cloudfront];
+  static const primaryValues = [hongguo, hanxiaoquan, guipian, sorani, dsd, huangdou, huangju, yeguo, huangguo, huangguoai, cloudfront];
 
   /// 敏感站源：无。默认隐藏，输入解锁密码后才显示。
   static const restrictedValues = [
